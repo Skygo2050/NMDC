@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.navbar{
+
+align-items: center;
+justify-content: center;
+top: 0;
+cursor: pointer;
+font-size: 20px;
+display: flex;
+position: relative;
+
+}
+
+
+
+#logo,#logo1,#logo2,#logo3{
+    color: chartreuse;
+}
+#logo img{
+    border-radius: 9px;
+}
+#logo:hover,#logo1:hover,#logo2:hover,#logo3:hover{
+    color: rgb(245, 11, 194);
+    border-radius: 7px;
+    font-size:25px ;
+}
+
+#donate{
+    border-radius: 7px;
+}
+#donate:hover{
+background-color: rgba(255, 0, 0, 0.884);
+}
+.dropdown-item:hover{
+    background-color: rgba(65, 105, 225, 0.884);
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-list{
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+center p{
+    font-size: 40px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homepicture{
+text-decoration: none;
+border-width: solid 6px red;
+border-bottom: solid 3px;
+margin-bottom: 10px;
+height: -100px;
+
+}
+#navbarDropdown{
+right: 0;
+float: inline-end;
+text-align: end;
+}
+.btn-sm{
+    position: relative;
+    border-radius: 7px solid rgb(241, 117, 117);
+    font-size: 15px;
+    padding: 6px ;
+ margin: 4px;
+    margin-top: 15px;
+
+}
+.card-body{
+    border-radius: 4px;
+    border-width: 4px;
+    background-color:rgba(0, 238, 255, 0.795);
+}
+#SERVICE img{
+    height: 185px;
+}
+#mainoption{
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+#OURSERVICES{
+    color:white;
+
+}
+
+#heading p{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(0, 255, 64, 0.795);
+    border-width:4px ;
+
+}
+.btn-group,#appointment{
+position: relative;
+margin: 30px;
+}
+body{
+    background-image: url("images/bg12.jpg");
+    z-index: -1;
+    opacity: inherit;
+    background-attachment: fixed;
+
+}
+
+
+@media (min-width: 500px) and (max-width: 768px) {
+   
+    .btn-group,#appointment{
+        position: relative;
+        margin: 2px;
+       
+    }
+}
+  
